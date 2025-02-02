@@ -2,6 +2,7 @@ NationStates card data dump in raw XML instead of GZ format.
 
 XML Format:
 
+```
 <CARDS>
     <SET>
         <SEASON>
@@ -28,3 +29,4 @@ XML Format:
         ...
     </SET>
 </CARDS>
+```
