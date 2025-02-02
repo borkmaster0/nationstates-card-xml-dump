@@ -1,5 +1,9 @@
 NationStates card data dump in raw XML instead of GZ format.
 
+Flag Base URL: https://www.nationstates.net/images/cards/s{SEASON}/{URL}
+
+Banner Base URL: https://www.nationstates.net/images/cards/s4/banners/{URL}
+
 XML Format:
 
 ```
@@ -13,8 +17,8 @@ XML Format:
             <MOTTO>STRING</NAME>
             <CATEGORY>STRING</NAME>
             <REGION>STRING</NAME>
-            <FLAG>https://www.nationstates.net/images/cards/s{SEASON}/{URL}</FLAG>
-            <BANNER>https://www.nationstates.net/images/cards/s4/banners/{URL}</BANNER> <- S4 ONLY
+            <FLAG>URL ENDPOINT</FLAG>
+            <BANNER>URL ENDPOINT</BANNER> <- S4 ONLY
             <CARDCATEGORY>STRING</CARDCATEGORY>
             <DESCRIPTION>
             <BADGES>
